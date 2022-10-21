@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  body, html {
+      height: 90%;
+    }
+    
+   html {
+      background-image: url(https://wallpapercave.com/wp/wp8797765.png);
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+  .mainCharacter {
+      position: absolute;
+      height: 100px;
+      width: 100px;
+      bottom: 50px;
+      left:  50px;;
+  
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  .enemy {
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      bottom: 60px;
+      background-image: url(https://img.pokemondb.net/sprites/black-white/anim/normal/tauros.gif); 
+  
+  }
+  
+  img {
+      max-width: 100%;
+      max-height: 100%;
+      transform: scaleX(-1);
+     }
+  
+  #score {
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    width: 200px;
+    border-radius: 50px;
+    color: white;
+  }
+  
+  #game-message {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+  }
+  #modal {
+    width: 250px;
+    height: 250px;
+    background-image: url(https://tinyurl.com/mtshncak);
+    background-repeat:no-repeat;
+    background-size: contain;
+    border-radius: 1000px;
+    padding: 35px;
+    text-align: center;
+    margin: 200px auto 50px;
+  }
+  
+  #modal h2 {
+    margin: 0;
+  }
+  
+  button {
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    border: 0;
+    margin-top: 20px;
+    padding: 12px 20px;
+    border-radius: 100px;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  
+  
+  #losing-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  
+  #modal2 {
+    width: 250px;
+    height: 250px;
+    background-image: url(https://tinyurl.com/mtshncak);
+    background-repeat:no-repeat;
+    background-size: contain;
+    border-radius: 1000px;
+    padding: 35px;
+    text-align: center;
+    margin: 200px auto 50px;
+    padding-top: 60px;
+  }

@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 350px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    
+    display: inline-block;
+    padding: 25px;
+    justify-content: center;
+}
+
+#charmander:hover, #squirtle:hover, #bulbasuar:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition: transform 350ms;
+}
