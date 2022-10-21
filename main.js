@@ -20,7 +20,7 @@ $("#play-button").click(function () {
 
 // end-game button to main menu
 $("#main-menu").click(function () {
-  window.location = "menu.html";
+  window.location = "index.html";
 });
 
 // scoring && jumping keycode

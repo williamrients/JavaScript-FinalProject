@@ -1,5 +1,5 @@
 $("#charmander").on("click", function() {
-    window.location = "index.html";
+    window.location = "charmander.html";
 });
 
 $("#squirtle").on("click", function() {
